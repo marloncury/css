@@ -1,0 +1,66 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>FORMULÁRIO</title>
+    </head>
+    <body>
+        
+        <form method="post" action="www.">
+            <selec>
+                Nome:<input type="text" size="20" name="nome"><br>
+                Senha:<br><input type="password" size="20" maxlength="6" name="senha"/><br>
+                Sistema Operacional: 
+                <input type="checkbox" name="SI" value="win7" checked="checked"> Windows 7
+                <input type="checkbox" name="SI" value="Win10"> Windows 10
+                <input type="checkbox" name="SI" value="Linux"> Linux
+                <input type="checkbox" name="SI" value="Mac"> Mac OS<br>
+                Processador <input type="radio" name="proc" value="Intel"> Intel
+                <input type="radio" name="proc" value="AMD"> AMD
+                <input type="radio" name="proc" value="Cyrix"> Cyrix<br>
+                 Profissao <select size="1" name="profissao">
+                <option value="AS">Analista de Sistemas</option>
+                <option value="AS">Analista de Suporte</option>
+                <option valeu="AJ">Analista Jr</option>
+                Texto:<br> <textarea rows="10" cols="20" name="mensagem"></textarea><br>
+
+
+            </select>
+            
+
+           
+
+
+            <!--
+                select e textarea sao as unicas que tem tag de fechamento
+                O que vem antes do input eu chamo de label 
+                action = para onde eu vou mandar os dados
+                name= nome dos campos que sera utilizada depois no backend para ser utilizado
+                maxlength = tamanha maximo de caracteres que sera aceito pelo campo
+                hidden = fica oculo
+                 Texto:<br> <textarea rows="10" cols="20" name="mensagem"></textarea>
+                 cols me da a largura da pagina, a quantidade de caracteres
+                 rows me da a quantidade de linha
+                 textarea nao recebe maxlength
+            <form action="pagina2.html"
+            <form action="mailto:marlon.dcury@gmail.com" abre o outlook para enviar os dados
+        method="get" ou "post" o default é o get 
+    method é o método de envio-->
+                <!-- BOTOES
+                    botoes com opções: radio = so marca um
+                                    checkbox = marca varias opçoes
+                    name tem que ser o msm nome para a msm categoria, mudo o name para categorias diferentes
+            <input type="radio" name="sexo" value="Masculino" checked="checked"> Masculino<br>
+            <input type="radio" name="sexo" value="Feminino"> Feminino<br>
+            value é o valor que vai pro backend
+            button type posso configuar melhor o botao, posso ate colocar imagem
+
+                 -->
+
+        </form>
+    </body>
+            
+
+
+
+</html>
+
