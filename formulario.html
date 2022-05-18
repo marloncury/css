@@ -1,38 +1,28 @@
 <!DOCTYPE hmtl>
 <html>
     <head>
-        <title>FORMULÁRIO</title>
+        <title>FORMULÁRIOS</title>
     </head>
     <body>
-        
+        <!-- O pixel 0,0 fica no canto superior esquerdo da imagem
+        uso 4 pontos (x,y) em sentido horario -->
+        <!-- formulario: -->
         <form method="post" action="www.">
-            <selec>
-                Nome:<input type="text" size="20" name="nome"><br>
-                Senha:<br><input type="password" size="20" maxlength="6" name="senha"/><br>
-                Sistema Operacional: 
-                <input type="checkbox" name="SI" value="win7" checked="checked"> Windows 7
-                <input type="checkbox" name="SI" value="Win10"> Windows 10
-                <input type="checkbox" name="SI" value="Linux"> Linux
-                <input type="checkbox" name="SI" value="Mac"> Mac OS<br>
-                Processador <input type="radio" name="proc" value="Intel"> Intel
-                <input type="radio" name="proc" value="AMD"> AMD
-                <input type="radio" name="proc" value="Cyrix"> Cyrix<br>
-                 <br>Profissao <select size="1" name="profissao">
-                <option value="AS">Analista de Sistemas</option>
-                <option value="AS">Analista de Suporte</option>
-                <option valeu="AJ">Analista Jr</option><br>
-                </select>
-                <br>Comentários:<input type="textarea" cols="20" rows="10"><br>
-                <button type="submit"><i><b>Enviar!</b></i></button>              
-                <button type="reset"><i><b>Apagar!</b></i></button>
-
-               
-
+            Nome:<br><input type="text" size="20" name="nome"/><br>
+            Senha:<br><input type="password" size="20" maxlength="6" name="senha"/><br>
+            Senha:<br><input type="hidden" size="20" maxlength="6" name="senha"/>
+            Texto:<br> <textarea rows="10" cols="20" name="mensagem"></textarea><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">   <br>       
+            <input type="radio" name="sexo" value="Masculino" checked="checked"> Masculino<br>
+            <input type="radio" name="sexo" value="Feminino"> Feminino<br>
+            <input type="checkbox" name="hobby" value="web" checked="checked"> Masculino<br>
+            <input type="checkbox" name="hobby" value="futebol"> Feminino<br>
+            <button type="submit"><i><b>Enviar!</b></i></button>
+            <select size="1" name="">
 
             </select>
-            
 
-           
 
 
             <!--
@@ -68,4 +58,3 @@
 
 
 </html>
-
