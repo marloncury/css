@@ -1,0 +1,14 @@
+h2{
+    color:blueviolet;
+    background-color: yellow;
+}
+body{
+    background-color: blueviolet;
+    background-image: url("imagens/manutencao-computador.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* propriedade pra imagem ficar congelada ou nao */
+    background-position: center center;
+    /* aonde vc quer q a imagem fique posicionada, sempre a primeira coordenada é altura e a segunda é comprimento*/
+    /* versao resumida background: #FFCC66 url("imagens/manutencao-computador.jpg") no-repeat fixed right bottom */
+}
